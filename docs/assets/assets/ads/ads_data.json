@@ -1,0 +1,43 @@
+{
+  "is_app_live": 1,
+  "is_all_app_ads_show": 1,
+  "is_native_ad_show": 1,
+  "is_native_small_ad_show": 1,
+  "is_banner_ad_show": 1,
+  "is_inter_ad_show": 1,
+  "is_back_button_ad_show": 1,
+  "user_in_ad_click": 1,
+  "user_out_ad_click": 1,
+  "title": "Play Quiz",
+  "description": "Get the unique diamond skin",
+  "button_title": "Play Now",
+  "privacy": "https://divineinfotech.website/",
+  "is_native_ad_url": "https://tush3.quiztwiz.com/",
+  "is_native_small_ad_url": "https://tush3.quiztwiz.com/",
+  "is_banner_ad_url": "https://tush3.quiztwiz.com/",
+  "is_inter_ad_url": "https://tush3.quiztwiz.com/",
+  "native_ad_image_list": [
+    "https://cyberappss.com/link/QurekaAsset/n1.png",
+    "https://cyberappss.com/link/QurekaAsset/n2.png",
+    "https://cyberappss.com/link/QurekaAsset/n3.png",
+    "https://cyberappss.com/link/QurekaAsset/n4.png",
+    "https://cyberappss.com/link/QurekaAsset/n5.png"
+  ],
+  "native_small_ad_image_list": [
+    "https://cyberappss.com/link/QurekaAsset/n1.png",
+    "https://cyberappss.com/link/QurekaAsset/n2.png",
+    "https://cyberappss.com/link/QurekaAsset/n3.png",
+    "https://cyberappss.com/link/QurekaAsset/n4.png",
+    "https://cyberappss.com/link/QurekaAsset/n5.png"
+  ],
+  "banner_ad_image_list": [
+    "https://divineinfotech.website/ASSET/b1.png",
+    "https://divineinfotech.website/ASSET/b2.png",
+    "https://divineinfotech.website/ASSET/b3.png",
+    "https://divineinfotech.website/ASSET/b4.png",
+    "https://divineinfotech.website/ASSET/b5.png"
+  ],
+  "native_gif_icon_List": [
+    "https://cyberappss.com/link/QurekaAsset/g1.gif"
+  ]
+}
