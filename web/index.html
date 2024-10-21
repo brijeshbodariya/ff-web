@@ -36,7 +36,26 @@
 </head>
 <body>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16743904668">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<script src="flutter_bootstrap.js" async></script>
+  gtag('config', 'AW-16743904668');
+</script>
+
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3203631292');
+      });
+    }
+  </script>
+<script src="main.dart.js" type="application/javascript"></script>
+
+
 </body>
 </html>
