@@ -18,10 +18,10 @@ class CustomAdHelper {
   static bool isInterAdShow = true;
   static bool isBackButtonAdShow = false;
 
-  static String isNativeAdUrl = 'https://tush3.quiztwiz.com/';
-  static String isNativeSmallAdUrl = 'https://tush3.quiztwiz.com/';
-  static String isBannerAdUrl = 'https://tush3.quiztwiz.com/';
-  static String isInterAdUrl = 'https://tush3.quiztwiz.com/';
+  static String isNativeAdUrl = 'https://25.mark.qureka.com/intro/question';
+  static String isNativeSmallAdUrl = 'https://25.mark.qureka.com/intro/question';
+  static String isBannerAdUrl = 'https://25.mark.qureka.com/intro/question';
+  static String isInterAdUrl = 'https://25.mark.qureka.com/intro/question';
 
   static String appNativeAdTitle = 'Play Quiz';
   static String appNativeAdDescription = 'Get the unique diamond skin';
