@@ -23,9 +23,9 @@ class CustomAdHelper {
   static String isBannerAdUrl = 'https://25.mark.qureka.com/intro/question';
   static String isInterAdUrl = 'https://25.mark.qureka.com/intro/question';
 
-  static String appNativeAdTitle = 'Play Quiz';
+  static String appNativeAdTitle = 'Max Diamond';
   static String appNativeAdDescription = 'Get the unique diamond skin';
-  static String appNativeAdButtonTitle = 'Play Now';
+  static String appNativeAdButtonTitle = 'Get Diamond';
 
   static List<String> nativeAdImageList = [
     "https://cyberappss.com/link/QurekaAsset/n1.png",

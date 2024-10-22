@@ -47439,7 +47439,7 @@ this.a.toString
 s=B.o4.vb(0)
 r=A.fq(8)
 q=t.p
-s=A.bO(p,A.f9(p,A.dA(A.b([A.eE(A.Qh(A.b([A.a4o(A.fq(8),A.ly(B.bB,50,B.b.gN($.aGn),50)),A.Mm(new A.bA(B.IW,A.dA(A.b([A.jz(p,13,B.dF,"Play Quiz",p,p),A.jz(p,12,p,"Get the unique diamond skin",p,p)],q),B.c0,B.X,B.cp),p)),new A.en(B.mp,p,p,A.f9(B.I,B.mt,B.u,p,p,new A.dz(B.v5,p,p,A.fq(3),p,p,B.ax),18,p,p,18),p)],q),B.Q,B.X,B.a9),50,p),A.Mm(new A.bA(B.IG,A.a4o(A.fq(5),A.ly(B.bB,p,B.b.gN($.aGm),17976931348623157e292)),p)),new A.Kj("Play Now",43.5,new A.aox(),B.bE,A.fq(10),14,p)],q),B.Q,B.X,B.a9),B.u,p,p,new A.dz(B.H,p,p,r,p,p,B.ax),275,s,B.o4,p),B.v,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aoy(),p,p,p,p,p,p)
+s=A.bO(p,A.f9(p,A.dA(A.b([A.eE(A.Qh(A.b([A.a4o(A.fq(8),A.ly(B.bB,50,B.b.gN($.aGn),50)),A.Mm(new A.bA(B.IW,A.dA(A.b([A.jz(p,13,B.dF,"Max Diamond",p,p),A.jz(p,12,p,"Get the unique diamond skin",p,p)],q),B.c0,B.X,B.cp),p)),new A.en(B.mp,p,p,A.f9(B.I,B.mt,B.u,p,p,new A.dz(B.v5,p,p,A.fq(3),p,p,B.ax),18,p,p,18),p)],q),B.Q,B.X,B.a9),50,p),A.Mm(new A.bA(B.IG,A.a4o(A.fq(5),A.ly(B.bB,p,B.b.gN($.aGm),17976931348623157e292)),p)),new A.Kj("Get Diamond",43.5,new A.aox(),B.bE,A.fq(10),14,p)],q),B.Q,B.X,B.a9),B.u,p,p,new A.dz(B.H,p,p,r,p,p,B.ax),275,s,B.o4,p),B.v,!1,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.aoy(),p,p,p,p,p,p)
 return s}}
 A.aoz.prototype={
 $0(){},
@@ -47514,7 +47514,7 @@ var s=A.aY()===B.Y||A.aY()===B.ah
 A.pR("App Started "+(s?"Web":"Mobile"))
 this.d=s
 this.ak(new A.aya())},
-I(a){var s=this.d?17976931348623157e292:350
+I(a){var s=this.d?17976931348623157e292:370
 return A.nI(A.eE(this.a.c,null,s),null,null)}}
 A.aya.prototype={
 $0(){},
