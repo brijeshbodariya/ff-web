@@ -83,12 +83,12 @@ class CustomAdHelper {
     nativeGifList = appAdsModel.nativeGifIconList ?? [];
   }
 
-  static Future<void> interstitialAd({required Function callback, bool isBackButton = false}) async {
+  static Future<void> interstitialAd({required Function callback, bool isBackButton = false, String? isAdUrl}) async {
     if (kIsWeb) {
       print("Web");
       callback();
       if (!isBackButton) {
-        Future.delayed(const Duration(milliseconds: 200), () => html.window.open(isInterAdUrl, '_self'));
+        Future.delayed(const Duration(milliseconds: 150), () => html.window.location.href = isAdUrl ?? isInterAdUrl);
       }
 
       // if (!isBackButton) {

@@ -29,7 +29,8 @@ class _AppCustomNativeAdsState extends State<AppCustomNativeAds> {
   Widget build(BuildContext context) {
     return CustomAdHelper.isNativeAdShow
         ? GestureDetector(
-            onTap: () => CustomAdHelper.launchURLInDefaultBrowserOnAndroid(context, url: CustomAdHelper.isNativeAdUrl),
+            onTap: () => CustomAdHelper.interstitialAd(callback: () {}, isAdUrl: CustomAdHelper.isNativeAdUrl),
+            // onTap: () => CustomAdHelper.launchURLInDefaultBrowserOnAndroid(context, url: CustomAdHelper.isNativeAdUrl),
             child: Container(
               margin: const EdgeInsets.symmetric(horizontal: 5.0, vertical: 5.0).copyWith(top: widget.topPadding),
               height: 275.0,

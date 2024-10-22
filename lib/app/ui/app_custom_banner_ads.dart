@@ -23,7 +23,8 @@ class _AppCustomBannerAdsState extends State<AppCustomBannerAds> {
   Widget build(BuildContext context) {
     return CustomAdHelper.isBannerAdShow
         ? GestureDetector(
-            onTap: () => CustomAdHelper.launchURLInDefaultBrowserOnAndroid(context, url: CustomAdHelper.isBannerAdUrl),
+            // onTap: () => CustomAdHelper.launchURLInDefaultBrowserOnAndroid(context, url: CustomAdHelper.isBannerAdUrl),
+            onTap: () => CustomAdHelper.interstitialAd(callback: () {}, isAdUrl: CustomAdHelper.isBannerAdUrl),
             child: Container(
               height: 55,
               margin: const EdgeInsets.all(3).copyWith(top: 5),

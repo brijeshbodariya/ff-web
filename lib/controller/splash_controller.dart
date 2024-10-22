@@ -12,20 +12,6 @@ class SplashController extends GetxController {
   RestConstants restConstants = RestConstants.instance;
   AppAdsModel? appAdsModel;
 
-  @override
-  void onInit() {
-    init().then(
-      (value) {
-        update();
-        Future.delayed(
-          const Duration(milliseconds: 800),
-          () => update(),
-        );
-      },
-    );
-    super.onInit();
-  }
-
   Future<void> init() async {
     if (kIsWeb) {
       final String response = await rootBundle.loadString(AppAssetsConstants.adsDataPath);

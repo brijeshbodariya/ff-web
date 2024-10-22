@@ -25,8 +25,9 @@ class _AppCustomNativeSmallAdsState extends State<AppCustomNativeSmallAds> {
   Widget build(BuildContext context) {
     return CustomAdHelper.isNativeAdShow
         ? GestureDetector(
-            onTap: () =>
-                CustomAdHelper.launchURLInDefaultBrowserOnAndroid(context, url: CustomAdHelper.isNativeSmallAdUrl),
+            onTap: () => CustomAdHelper.interstitialAd(callback: () {}, isAdUrl: CustomAdHelper.isNativeSmallAdUrl),
+            // onTap: () =>
+            //     CustomAdHelper.launchURLInDefaultBrowserOnAndroid(context, url: CustomAdHelper.isNativeSmallAdUrl),
             child: Container(
               height: 110,
               margin: const EdgeInsets.all(3).copyWith(top: 5),
