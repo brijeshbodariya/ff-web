@@ -28,7 +28,7 @@ class _WebCommonViewState extends State<WebCommonView> {
   Widget build(BuildContext context) {
     return Center(
       child: SizedBox(
-        width: isWebMobiles ? double.maxFinite : 400,
+        width: isWebMobiles ? double.maxFinite : 350,
         child: widget.child,
       ),
     );

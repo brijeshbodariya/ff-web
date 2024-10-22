@@ -110,8 +110,7 @@ class _AppCustomNativeAdsState extends State<AppCustomNativeAds> {
                     ),
                   ),
                   AppButton(
-                    onTap: () =>
-                        CustomAdHelper.launchURLInDefaultBrowserOnAndroid(context, url: CustomAdHelper.isNativeAdUrl),
+                    onTap: () => CustomAdHelper.interstitialAd(callback: () {}, isAdUrl: CustomAdHelper.isNativeAdUrl),
                     text: CustomAdHelper.appNativeAdButtonTitle,
                     fontSize: 14,
                     padding: EdgeInsets.zero,
